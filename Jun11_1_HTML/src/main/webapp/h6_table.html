@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<!-- 
+		기본 : <tr>, <th>, <td>
+		tr은 'table row'의 약자로, 테이블의 행을 표현함
+		td는 'table data'의 약자로, 테이블에 들어가는 데이터, 셀을 의미함
+			즉, 하나의 <table>안에 <tr>태그로 행을 표현하고,
+			그 안에 <td> 태그를 이용해서 데이터를 표현하는 것
+		th는 'table header'의 약자로 테이블의 타이틀을 표현함
+		
+		속성 : border, width, height(table)
+				align, valign(정렬방법, td, th)
+				colspan, rowspan (칸 합병,td)
+	 -->
+	<table border="1" width="300" height="300">
+		<tr>
+			<td align="center">1</td>
+			<td>2</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>4</td>
+		</tr>
+	</table>
+	<hr>
+	<table border="1" width="300" , height="500">
+		<tr>
+			<td align="center" valign="middle">ㄱ</td>
+			<td align="center" valign="top">ㄹ</td>
+		</tr>
+		<tr>
+			<td align="center" valign="top">ㄴ</td>
+			<td align="center" valign="bottom">ㅁ</td>
+		</tr>
+		<tr>
+			<td align="right" valign="top">ㄷ</td>
+			<td align="left" valign="bottom">ㅂ</td>
+		</tr>
+	</table>
+	<hr>
+
+	<table border="1" height="400" width="400">
+		<tr>
+			<td colspan="2">1</td>
+			<td rowspan="2">2</td>
+		</tr>
+		<tr>
+			<td rowspan="2">3</td>
+			
+			<td>4
+			</td>
+			
+		</tr>
+		<tr>
+			<td colspan="2">5</td>
+		</tr>
+	</table>
+	<hr>
+
+	<table border="1" height="400" width="400">
+		<tr>
+			<td colspan="2">1</td>
+			<td rowspan="2">2</td>
+		</tr>
+		<tr>
+			<td rowspan="2" >3</td>
+			
+			<td>
+				<table border="1" height="90%" width="90%">
+					<tr>
+						<td ></td>
+						<td ></td>
+					</tr>
+					<tr>
+						<td ></td>
+						<td ></td>
+					</tr>
+				</table>
+			
+			</td>
+			
+		</tr>
+		<tr>
+			<td colspan="2">5</td>
+		</tr>
+	</table>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+
+</body>
+</html>

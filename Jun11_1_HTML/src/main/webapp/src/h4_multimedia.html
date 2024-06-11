@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+<!-- 
+	 	파일경로
+	 		절대경로 : 처음부터 다 명시
+	 		경기도 부천시 XX구 XX동 XX번지 XX아파트 XX동 XX호
+	 		실전에서는 사용 불가능
+	 		
+	 		상대 경로 : 현재 작업중인 html 기준으로
+	 		.. : 한단계 위의 경로로
+	 		*** 한글 파일명 가급적 사용 x 
+	  -->
+	 <!-- <img src="C:\Users\sdedu\Desktop\JSP\Jun11_1_HTML\src\main\webapp\src\img.jpg"> -->
+	 <hr>
+	 <img src="../img2.jpg">
+	 <img src="img.jpg">
+	 
+	 <!-- controls 속성은 플레이 버튼이나 정지버튼과 같이 비디오의 실행을 제어할 수 있음 -->
+	 <video src="../video.mp4"controls="controls"></video>
+	 <hr>
+	<!-- 
+	음악, 영상, 문서 등의 외부 컨텐츠 포함
+	최신 브라우저들은 지원을 중단하고 있는 추세
+	사용하는것을 지양
+	 --> 
+	 <embed src="../pdf.pdf" height="500px"></embed>
+	 <!-- 
+	 	가로나 세로 중에 하나만 조절하면 원본 비율에 따라서 크기를 조절 
+		단위를 안쓰면 px(픽셀)단위
+		% 단위 사용 가능 O
+		사이즈 조절 안하는게 베스트 => 크기를 늘리면 픽셀이 깨져서 나옴	 
+	 -->
+	 <audio src="../music.mp3" controls="controls"></audio>
+
+</body>
+</html>
+
+
