@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+#guestArea {
+	width: 700px;
+	border: black solid 4px;
+	border-radius: 10px;
+	box-shadow: maroon 0px 0px 20px inset;
+	font-size: 15pt;
+}
+
+.imgTd {
+	width: 150px;
+	padding: 10px;
+}
+
+#guestArea img {
+	max-width: 150px;
+	border: red solid 3px;
+	border-radius: 30px;
+}
+
+.textTd {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis; /*잘리는 부분을 ...처리*/
+	max-width: 500px;
+}
+
+textarea {
+	background-color: transparent;
+	border: none;
+	font-family: "1009";
+	font-size: 15pt;
+	resize: none;
+}
+textarea:focus {
+	outline:none;
+}

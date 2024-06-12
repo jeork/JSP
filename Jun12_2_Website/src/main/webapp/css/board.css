@@ -1,0 +1,58 @@
+@charset "UTF-8";
+#diaryTbl{
+	width:990px;
+	background-color: #FFCC00;
+	color:black;
+	font-size: 20pt;
+	border-spacing: 0px;
+	
+}
+#diaryTbl .dataTr{
+	background-color: white;
+	color: pink;
+	height: 40px;
+	cursor:pointer;
+}
+#diaryTbl .dataTr:hover{
+	background-color: #990033;
+}
+#diaryTbl th{
+	height: 60px;
+	font-size:20pt;
+}
+#diaryTbl td{
+	text-align: center;
+	width: 33%;
+	border-bottom: black solid 2px;
+}
+
+
+
+
+
+
+/* #siteBoardMenuArea {
+	border: solid;
+	border-radius: 10px;
+}
+
+#siteBoardNumArea {
+	width: 150px;
+	height: 50px;
+}
+
+#siteBoardTitleArea {
+	text-align:left;
+	width: 550px;
+}
+#siteBoardTitleArea a{
+	text-decoration: none;
+	color: black;
+}
+#siteBoardTitleArea a:hover{
+	color:teal;
+}
+
+#siteBoardDateArea {
+	width: 250px;
+} */

@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+@font-face {
+	src: url("a1009.ttf");
+	font-family: "1009";
+	/* 
+		웹폰트 등록 : 
+		CSS에 추가
+		폰트파일에 있는 글자들의 모양이 다 등록
+			=> 용량이 커짐
+			=> 느려짐
+	 */
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+body {
+	font-family: "1009";
+	/* html 기본 여백 없애기 */
+	margin: 0px;
+	padding: 0px;
+	/* margin : 바깥쪽 여백 / padding: 안쪽 여백 */
+}
+
+#siteTitleArea {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	border-spacing: 0px; /* td간의 간격 0px */
+}
+
+#siteMenuArea {
+	background-color: #FFCCFF55;
+	font-size: 30pt;
+}
+
+#siteMenuArea table {
+	width: 100%;
+}
+
+#siteMenuArea td {
+	width: 25%;
+	text-align: center;
+}
+
+#siteMenuArea a {
+	text-decoration: none;
+	color:  teal;
+	font-weight: 500;
+	/* 애니메이션 효과 */
+	/* 속성명 시간 (ease-in/ease-out) */
+	transition: all 0.5s ease-in;
+}
+
+#siteMenuArea a:hover{
+	font-size: 40pt;
+	text-shadow: yellow 0px 0px 10px;
+	text-decoration: underline;
+}
+#siteMenuArea a:active{
+	color:blue;
+}
+#siteTitle{
+	background-color: #3399FF55;
+	font-size: 30pt;
+	color: black;
+	text-shadow: teal 3px 5px 5px;
+	width: 1000px;
+	
+}
+
+#siteContentArea {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 200px;
+}
+#video{
+	max-width: 50%;
+	/* 
+		사이즈를 조절하면 그림이 깨져서 안하는게 베스트
+	 	어쩔수 없다면 
+	 		큰 그림 => 줄이기 : OK
+	 		작은그림 => 늘리기 : 깨져서 나올수있음
+	*/
+	
+	/* 객체 자체에 그림자 */
+	box-shadow: lightblue 10px 10px 30px;
+}
