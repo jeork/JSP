@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	div{
+		color : #0000FF;
+	}
+	#weekend {
+		background-color: yellow;
+	}
+	.c {
+		font-weight: 900;
+	}
+	h1, h2{
+		text-decoration: overline;
+	}
+	div h3{
+		/* 그림자처리 : 색깔 x축 y축 blur(번짐)  */
+		text-shadow: orange 3px 3px 5px;
+		border : groove 7px;
+		border-radius: 30px;
+	}
+	h3.c{
+		/* 테두리 : 색깔 선 종류 두께 */
+		/* 선 종류 : solid dashed dotted double inst outset groove ... */
+		border : #99FFFF double 7px;
+		border-radius: 10px;
+	}
+	#btn{
+		font-size: 20pt;
+		background-color: #99CCFF;
+		border : #FF6666 outset 5px;
+		border-radius: 10px;
+	}
+	#btn:active {
+		border : #FF6666 inset 5px;
+	}
+	#btn:hover {
+		font-family: "궁서";	
+	}
+	
+</style>
+</head>
+<body>
+	<span id="btn">수요일 시작</span>
+	<h1>어제 학생 4분과 술을 마셨는데요</h1>
+	<h2>다들 술을 엄청 잘 드시더라구요</h2>
+	<div>
+		<h3>저는 너무 안힘듭니다</h3>
+	</div>
+
+	<h3 class="c">진짜루요</h3>
+
+	<div class="c">div는 한줄을 다 차지하구요</div>
+	<span class="c">span은 이 영역만을 사용합니다</span>
+	<div id="weekend">주말은 언제 오나요</div>
+
+	<!-- 
+	CSS(Cascading Style Sheet
+		HTML DOM객체에 디자인 부여
+		
+	위치 
+		.html파일 내부 <head> </head> 부분에 
+			1) DOM객체의 속성형태
+			2) .css파일을 따로 만들어서 
+	문법
+		선택자 {
+			속성명:값;
+			속성명:값;
+			...			
+		}
+		
+	선택자 (selector)
+		기본형
+			태그명 - 태그명에 속하는것 전부 다!
+			#id - id가 지정한 값인것 (중복 사용 X)
+			.class - class가 지정한 값인거 (중복 사용 O)
+		조합형
+			선택자, 선택자, ... - 여러개 선택
+			선택자 선택자, ... - 내부 선택
+			선택자.class명
+		상태형
+			선택자:상태
+	
+	-->
+</body>
+</html>
+
+
+
+
+
+
