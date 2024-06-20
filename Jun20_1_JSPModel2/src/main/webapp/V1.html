@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="OjValidChecker.js"></script>
+<script type="text/javascript" src="M2.js"></script>
+<link rel="stylesheet" href="V3.css">
+</head>
+<body>
+	<!-- 
+		View : HTML / JSP
+		실제 사용자가 보는 페이지 + 입력 + 출력
+		모든 요청은 C (Controller) 쪽으로!
+		
+		웹디자이너 A 
+	 -->
+
+	<h1>V1</h1>
+	<form action="C" method="post" name="f" onsubmit="return check();">
+		x : <input name="x"><p>
+		y : <input name="y"><p>
+		<button>계산</button>
+	</form>
+</body>
+</html>
