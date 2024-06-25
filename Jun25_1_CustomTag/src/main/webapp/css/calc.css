@@ -1,0 +1,39 @@
+@charset "UTF-8";
+@font-face {
+	font-family: "109";
+	src: url("a109.ttf");
+}
+#calcTbl{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	box-shadow: pink 3px 3px 10px;
+	width: 500px;
+	height: 500px; 
+}
+
+#clacTbl input{
+	border: pink solid 3px;
+	background-color: transparent;
+	width: 80%;
+	color: teal;
+	font-size: 20pt;
+	outline: none;
+	text-align: center;
+	font-family: "109";
+}
+#calcTbl input ::placeholder{
+	color : teal;
+	font-family: "109";
+	font-size:20pt;
+}
+
+#caclTbl button {
+	border: pink solid 3px;
+	background-color: transparent;
+	width: 80%;
+	font-size:20pt;
+	font-weight: 600;
+	color : teal;
+	font-family: "109";
+}

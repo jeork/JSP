@@ -1,0 +1,26 @@
+@charset "UTF-8";
+@font-face {
+	font-family: "109";
+	src: url("a109.ttf");
+}
+body{
+	font-family: "109";
+}
+#navTbl{
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: pink 3px 3px 10px;
+	border: solid pink 2px;
+	border-radius:5px;
+	width: 800px;
+	height: 70px;
+}
+#navTbl a{
+	margin-right: 50px;
+	margin-left: 50px;
+	text-decoration: none;
+}
+#navTbl a:hover {
+	font-weight: bold;
+	color: red;
+}
