@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: "speed";
+	src: url("aSpeed.ttf");
+}
+
+body {
+	background-color: teal;
+	margin: 0px;
+	padding: 0px;
+}
+
+#siteTbl {
+	position: fixed;
+	top: -2px;
+	width: 100%;
+}
+
+#siteTbl a {
+	font-family: "speed";
+	color: pink;
+	font-size: 40pt;
+	font-weight: 900;
+	text-decoration: none;
+}
+
+#siteTitleArea {
+	background-color: white;
+	width: 100%;
+}
+
+#siteContentArea {
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "speed";
+	font-size: 40pt;
+	color: white;
+	padding: 40px;
+}
+
+#siteMenuTbl {
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	height: 80px;
+	background-color: white;
+}
+
+#siteMenuTbl td {
+	width: 25%;
+}
+
+#siteMenuTbl a {
+	font-family: "speed";
+	color: pink;
+	font-size: 30pt;
+	font-weight: 9000;
+	text-decoration: none;
+}

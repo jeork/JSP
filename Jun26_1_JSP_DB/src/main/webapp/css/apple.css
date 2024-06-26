@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+.dataTbl{
+	margin : 20px;
+	border: solid pink 3px;
+	border-collapse:collapse;
+	border-radius: 10px;
+	width: 300px;
+}
+.dataTbl th{
+	border: solid pink 3px;
+	border-collapse:collapse;
+	padding: 20px;
+	font-size: 30px;
+}
+.dataTbl tr{
+	border: solid pink 3px;
+	border-collapse:collapse;
+	padding: 20px;
+	font-size: 30px;
+}
+.dataTbl td{
+	border: solid pink 3px;
+	border-collapse:collapse;
+	padding: 20px;
+	font-size: 30px;
+}
