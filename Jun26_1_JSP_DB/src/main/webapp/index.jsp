@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 <link rel="stylesheet" href="css/index.css">
 <link rel="stylesheet" href="css/apple.css">
+<script type="text/javascript" src="js/detail.js"></script>
 
 </head>
 

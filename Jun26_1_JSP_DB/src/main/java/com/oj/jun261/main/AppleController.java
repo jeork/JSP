@@ -12,7 +12,7 @@ import com.oj.jun261.apple.AppleDAO;
 @WebServlet("/AppleController")
 public class AppleController extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		AppleDAO.getAppledao().getAllApples(request);
+		AppleDAO.getAppledao().getApples(1,request);
 		request.setAttribute("contentPage","apple.jsp");
 		request.getRequestDispatcher("index.jsp").forward(request, response);
 		

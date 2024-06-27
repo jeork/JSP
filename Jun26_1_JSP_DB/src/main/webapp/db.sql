@@ -17,3 +17,6 @@ insert into jun26_apple values('충주','빨강','단맛',4000,'충주사과 입
 insert into jun26_apple values('광주','검정','떫은맛',3000,'광주사과 입니다');
 
 
+
+select rownum,a_location,a_price from jun26_apple where rownum>=1 and rownum<=4 order by a_price
+select * from jun26_apple where a_location ='도쿄'

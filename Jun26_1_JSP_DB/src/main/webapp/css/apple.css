@@ -1,27 +1,53 @@
 @charset "UTF-8";
 
-.dataTbl{
-	margin : 20px;
+.dataTbl {
+	margin: 20px;
 	border: solid pink 3px;
-	border-collapse:collapse;
+	border-collapse: collapse;
 	border-radius: 10px;
 	width: 300px;
 }
-.dataTbl th{
+
+.dataTbl th {
+	border: solid white 3px;
+	padding: 20px;
+	font-size: 30px;
+	background-color: pink;
+	padding: 20px;
+}
+
+.dataTbl tr {
 	border: solid pink 3px;
-	border-collapse:collapse;
 	padding: 20px;
 	font-size: 30px;
 }
-.dataTbl tr{
+
+.dataTbl td {
 	border: solid pink 3px;
-	border-collapse:collapse;
 	padding: 20px;
 	font-size: 30px;
 }
-.dataTbl td{
+
+.dataTr:hover {
+	background-color: black;
+	cursor: pointer;
+}
+
+.pageNumTd a:hover {
+	background-color: black;
+}
+
+.btn {
+	width: 80px;
+	height: 80px;
+	background-color: teal;
 	border: solid pink 3px;
-	border-collapse:collapse;
-	padding: 20px;
-	font-size: 30px;
+	border-radius: 35px;
+	color: white;
+}
+
+.btn:hover {
+	border: solid white 3px;
+	background-color: pink;
+	cursor: pointer;
 }
