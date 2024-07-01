@@ -6,24 +6,31 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <link rel="stylesheet" href="css/index.css">
+<script type="text/javascript" src = "js/go.js"></script>
 </head>
 <body>
 
-	<table>
+	<table class="indexTbl">
 		<tr>
-			<th class="titleTh" align="center" colspan="2">제목</th>
+			<th class="titleTh" align="center" colspan="2">
+			<a href="HomeController">SNS Mode</a>
+			</th>
 		</tr>
 		<tr>
-			<td class = "menuTd" align="center" colspan="2">메뉴</td>
-		</tr>
-		<tr>
-			<td class="contentTd" align="center">
-				<jsp:include page="${contentPage}"/>
+			<td class = "menuTd" align="center" >
+			<a href="BoardController">Board</a>
+			
 			</td>
-			<td class = "dataTd" align="center">
-				<jsp:include page="${dataPage}"/>
+			<td class = "menuTd" align="center" >Print</td>
+		</tr>
+		<tr>
+			<td class="contentTd" align="center" colspan="2">
+				<jsp:include page="${contentPage}"/>
 			</td>
 		</tr>
 	</table>
+			<div class = "dataDiv" >
+				<jsp:include page="${dataPage}"/>
+			</div>
 </body>
 </html>

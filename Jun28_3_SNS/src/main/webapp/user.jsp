@@ -10,23 +10,23 @@
 	<table>
 		<tr>
 			<td>
-			사진
+			<img src="img/${sessionScope.loginMember.m_img }" style="width: 80px">
 			</td>
 			<td>
-				OO
-			</td>
-		</tr>
-		<tr>
-			<td>
-				OO님 어서오세요
+				${sessionScope.loginMember.m_id }
 			</td>
 		</tr>
 		<tr>
 			<td>
-				<button>정보</button>
+				${sessionScope.loginMember.m_name }님<br> 어서오세요
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<button onclick = "memberInfoGo();">정보</button>
 			</td>
 			<td>
-				<button>로그아웃</button>
+				<button onclick="logout();">로그아웃</button>
 			</td>
 		</tr>
 	</table>

@@ -1,6 +1,7 @@
 package com.oj.jun283.main;
 
 import java.io.IOException;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -16,9 +17,9 @@ public class HomeController extends HttpServlet {
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		
-		request.setAttribute("contentPage", "reg.jsp");
-		request.setAttribute("dataPage", "login.jsp");
+		DateManager.getCurYear(request);
+		MemberDAO.loginCheck(request);
+		request.setAttribute("contentPage","home.jsp" );	
 		request.getRequestDispatcher("index.jsp").forward(request, response);
 	}
 

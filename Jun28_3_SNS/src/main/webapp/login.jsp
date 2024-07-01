@@ -17,12 +17,12 @@
 		</tr>
 		<tr>
 			<td colspan="2" class="inputTd" align="right">
-			ID : <input name="id" autocomplete="off">
+				<input name="id" autocomplete="off" placeholder="ID">
 			</td>
 		</tr>
 		<tr>
 			<td colspan="2" class="inputTd" align="right">
-			PW : <input name="pw" type="password">
+				<input name="pw" type="password" placeholder="Password">
 			</td>
 		</tr>
 		<tr>
@@ -30,12 +30,12 @@
 				<button>로그인</button>
 			</td>
 		</tr>
-		<!-- <tr>
-			 <td align="right">
-				<button>회원가입</button>
-			</td>
-		</tr> -->
-	</table>
 </form>
+		<tr>
+			 <td align="right">
+				<button onclick="signUpgo();">회원가입</button>
+			</td>
+		</tr>
+	</table>
 </body>
 </html>
