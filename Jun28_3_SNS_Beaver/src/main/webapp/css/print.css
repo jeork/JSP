@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+.printInput{
+	border: white solid 5px;
+	border-radius: 5px;
+	background-color: pink;
+	margin-top: 5px;
+	height: 35px;
+	width: 300px;
+	font-family: "soso";
+	font-size: 15pt;
+	font-weight: 700;
+	color: black;
+	text-align: center;
+	outline: none;
+}
+
+.printInput::placeholder {
+	text-align: center;
+	font-family: "soso";
+	font-weight: 700;
+	font-size: 15pt;
+	color: black;
+}
+
+.printBtn {
+	border: white solid 5px;
+	border-radius: 5px;
+	font-family: "soso";
+	font-size: 15pt;
+	font-weight: 700;
+	color: black;
+	background-color: pink;
+	width: 150px;
+	height: 47px;
+}
